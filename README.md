@@ -25,3 +25,12 @@ or
 ```
 julia> include("Parallelized.jl") #to run in parallel
 ```
+
+**IMPORTANT**: 
+
+You need to add six Julia Package (IterativeSolvers, LinearAlgebra, Random, Statistics, KissSmoothing, PlotlyJS) to run the software. To add these Package, digit in Julia REPL `]` to access to the Julia Pkg mode, and then digit:
+```
+add IterativeSolvers, LinearAlgebra, Random, Statistics, KissSmoothing, PlotlyJS
+```
+to add the six Package.
+
